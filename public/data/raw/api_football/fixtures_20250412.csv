@@ -1,0 +1,381 @@
+date,home_team,away_team,home_goals,away_goals,status,season
+2023-04-15T19:00:00+00:00,Palmeiras,Cuiaba,2,1,Match Finished,2023
+2023-04-15T19:00:00+00:00,America Mineiro,Fluminense,0,3,Match Finished,2023
+2023-04-15T21:30:00+00:00,Botafogo,Sao Paulo,2,1,Match Finished,2023
+2023-04-15T21:30:00+00:00,Atletico Paranaense,Goias,2,0,Match Finished,2023
+2023-04-15T21:30:00+00:00,Fortaleza EC,Internacional,1,1,Match Finished,2023
+2023-04-15T21:30:00+00:00,RB Bragantino,Bahia,2,1,Match Finished,2023
+2023-04-16T00:00:00+00:00,Atletico-MG,Vasco DA Gama,1,2,Match Finished,2023
+2023-04-16T19:00:00+00:00,Flamengo,Coritiba,3,0,Match Finished,2023
+2023-04-16T19:00:00+00:00,Corinthians,Cruzeiro,2,1,Match Finished,2023
+2023-04-16T21:30:00+00:00,Gremio,Santos,1,0,Match Finished,2023
+2023-04-22T19:00:00+00:00,Fluminense,Atletico Paranaense,2,0,Match Finished,2023
+2023-04-22T21:30:00+00:00,Sao Paulo,America Mineiro,3,0,Match Finished,2023
+2023-04-22T21:30:00+00:00,Cuiaba,RB Bragantino,1,1,Match Finished,2023
+2023-04-23T00:00:00+00:00,Cruzeiro,Gremio,1,0,Match Finished,2023
+2023-04-23T14:00:00+00:00,Internacional,Flamengo,2,1,Match Finished,2023
+2023-04-23T19:00:00+00:00,Santos,Atletico-MG,0,0,Match Finished,2023
+2023-04-23T19:00:00+00:00,Vasco DA Gama,Palmeiras,2,2,Match Finished,2023
+2023-04-23T21:30:00+00:00,Coritiba,Fortaleza EC,0,3,Match Finished,2023
+2023-04-23T22:00:00+00:00,Goias,Corinthians,3,1,Match Finished,2023
+2023-04-24T23:00:00+00:00,Bahia,Botafogo,1,2,Match Finished,2023
+2023-04-29T19:30:00+00:00,Coritiba,Sao Paulo,1,1,Match Finished,2023
+2023-04-29T19:30:00+00:00,Fortaleza EC,Fluminense,4,2,Match Finished,2023
+2023-04-29T21:30:00+00:00,Palmeiras,Corinthians,2,1,Match Finished,2023
+2023-04-29T21:30:00+00:00,Santos,America Mineiro,3,2,Match Finished,2023
+2023-04-29T21:30:00+00:00,RB Bragantino,Cruzeiro,0,3,Match Finished,2023
+2023-04-30T00:00:00+00:00,Atletico-MG,Atletico Paranaense,2,1,Match Finished,2023
+2023-04-30T19:00:00+00:00,Flamengo,Botafogo,2,3,Match Finished,2023
+2023-04-30T21:30:00+00:00,Internacional,Goias,1,0,Match Finished,2023
+2023-04-30T21:30:00+00:00,Cuiaba,Gremio,1,2,Match Finished,2023
+2023-05-01T23:00:00+00:00,Vasco DA Gama,Bahia,0,1,Match Finished,2023
+2023-05-06T19:00:00+00:00,Cruzeiro,Santos,2,1,Match Finished,2023
+2023-05-07T00:00:00+00:00,Fluminense,Vasco DA Gama,1,1,Match Finished,2023
+2023-05-07T14:00:00+00:00,America Mineiro,Cuiaba,1,2,Match Finished,2023
+2023-05-07T19:00:00+00:00,Bahia,Coritiba,3,1,Match Finished,2023
+2023-05-07T19:00:00+00:00,Sao Paulo,Internacional,2,0,Match Finished,2023
+2023-05-07T19:00:00+00:00,Atletico Paranaense,Flamengo,2,1,Match Finished,2023
+2023-05-07T21:30:00+00:00,Botafogo,Atletico-MG,2,0,Match Finished,2023
+2023-05-07T21:30:00+00:00,Gremio,RB Bragantino,3,3,Match Finished,2023
+2023-05-07T21:30:00+00:00,Goias,Palmeiras,0,5,Match Finished,2023
+2023-05-08T23:00:00+00:00,Corinthians,Fortaleza EC,1,1,Match Finished,2023
+2023-05-10T22:00:00+00:00,Internacional,Atletico Paranaense,0,2,Match Finished,2023
+2023-05-10T22:00:00+00:00,Santos,Bahia,3,0,Match Finished,2023
+2023-05-10T22:00:00+00:00,RB Bragantino,America Mineiro,2,2,Match Finished,2023
+2023-05-10T23:00:00+00:00,Flamengo,Goias,2,0,Match Finished,2023
+2023-05-10T23:00:00+00:00,Cuiaba,Atletico-MG,0,4,Match Finished,2023
+2023-05-11T00:30:00+00:00,Palmeiras,Gremio,4,1,Match Finished,2023
+2023-05-11T00:30:00+00:00,Cruzeiro,Fluminense,0,2,Match Finished,2023
+2023-05-11T22:00:00+00:00,Coritiba,Vasco DA Gama,1,1,Match Finished,2023
+2023-05-11T22:30:00+00:00,Botafogo,Corinthians,3,0,Match Finished,2023
+2023-05-11T23:00:00+00:00,Fortaleza EC,Sao Paulo,0,0,Match Finished,2023
+2023-05-13T19:00:00+00:00,Bahia,Flamengo,2,3,Match Finished,2023
+2023-05-13T21:30:00+00:00,Palmeiras,RB Bragantino,1,1,Match Finished,2023
+2023-05-13T21:30:00+00:00,Fluminense,Cuiaba,2,0,Match Finished,2023
+2023-05-14T00:00:00+00:00,Atletico-MG,Internacional,2,0,Match Finished,2023
+2023-05-14T19:00:00+00:00,Gremio,Fortaleza EC,0,0,Match Finished,2023
+2023-05-14T19:00:00+00:00,Corinthians,Sao Paulo,1,1,Match Finished,2023
+2023-05-14T19:00:00+00:00,Vasco DA Gama,Santos,0,1,Match Finished,2023
+2023-05-14T21:30:00+00:00,America Mineiro,Cruzeiro,0,4,Match Finished,2023
+2023-05-14T21:30:00+00:00,Atletico Paranaense,Coritiba,3,2,Match Finished,2023
+2023-05-14T21:30:00+00:00,Goias,Botafogo,2,1,Match Finished,2023
+2023-05-20T19:00:00+00:00,Bahia,Goias,1,1,Match Finished,2023
+2023-05-20T21:30:00+00:00,Botafogo,Fluminense,1,0,Match Finished,2023
+2023-05-20T21:30:00+00:00,America Mineiro,Fortaleza EC,2,1,Match Finished,2023
+2023-05-20T21:30:00+00:00,Sao Paulo,Vasco DA Gama,4,2,Match Finished,2023
+2023-05-20T21:30:00+00:00,Coritiba,Atletico-MG,1,2,Match Finished,2023
+2023-05-20T21:30:00+00:00,RB Bragantino,Atletico Paranaense,2,0,Match Finished,2023
+2023-05-21T00:00:00+00:00,Santos,Palmeiras,0,0,Match Finished,2023
+2023-05-21T19:00:00+00:00,Flamengo,Corinthians,1,0,Match Finished,2023
+2023-05-21T21:30:00+00:00,Gremio,Internacional,3,1,Match Finished,2023
+2023-05-22T23:00:00+00:00,Cruzeiro,Cuiaba,0,1,Match Finished,2023
+2023-05-27T19:00:00+00:00,Atletico Paranaense,Gremio,1,2,Match Finished,2023
+2023-05-27T19:00:00+00:00,Fortaleza EC,Vasco DA Gama,2,0,Match Finished,2023
+2023-05-27T21:30:00+00:00,Flamengo,Cruzeiro,1,1,Match Finished,2023
+2023-05-27T21:30:00+00:00,Cuiaba,Coritiba,1,1,Match Finished,2023
+2023-05-28T00:00:00+00:00,Sao Paulo,Goias,2,1,Match Finished,2023
+2023-05-28T19:00:00+00:00,Internacional,Bahia,2,0,Match Finished,2023
+2023-05-28T19:00:00+00:00,Corinthians,Fluminense,2,0,Match Finished,2023
+2023-05-28T21:30:00+00:00,RB Bragantino,Santos,2,0,Match Finished,2023
+2023-05-28T21:30:00+00:00,Atletico-MG,Palmeiras,1,1,Match Finished,2023
+2023-05-28T22:00:00+00:00,Botafogo,America Mineiro,2,0,Match Finished,2023
+2023-06-03T19:00:00+00:00,Fortaleza EC,Bahia,0,0,Match Finished,2023
+2023-06-03T21:30:00+00:00,America Mineiro,Corinthians,2,0,Match Finished,2023
+2023-06-03T21:30:00+00:00,Atletico Paranaense,Botafogo,1,0,Match Finished,2023
+2023-06-03T21:30:00+00:00,Cruzeiro,Atletico-MG,0,1,Match Finished,2023
+2023-06-04T00:00:00+00:00,Santos,Internacional,1,1,Match Finished,2023
+2023-06-04T19:00:00+00:00,Fluminense,RB Bragantino,2,1,Match Finished,2023
+2023-06-04T19:00:00+00:00,Gremio,Sao Paulo,2,1,Match Finished,2023
+2023-06-04T21:30:00+00:00,Palmeiras,Coritiba,3,1,Match Finished,2023
+2023-06-04T21:30:00+00:00,Goias,Cuiaba,0,1,Match Finished,2023
+2023-06-05T23:00:00+00:00,Vasco DA Gama,Flamengo,1,4,Match Finished,2023
+2023-06-10T19:00:00+00:00,Coritiba,Santos,0,0,Match Finished,2023
+2023-06-10T21:30:00+00:00,Bahia,Cruzeiro,2,2,Match Finished,2023
+2023-06-10T21:30:00+00:00,Corinthians,Cuiaba,1,1,Match Finished,2023
+2023-06-10T21:30:00+00:00,Atletico-MG,RB Bragantino,1,1,Match Finished,2023
+2023-06-11T00:00:00+00:00,Botafogo,Fortaleza EC,2,0,Match Finished,2023
+2023-06-11T14:00:00+00:00,America Mineiro,Atletico Paranaense,2,2,Match Finished,2023
+2023-06-11T19:00:00+00:00,Internacional,Vasco DA Gama,2,1,Match Finished,2023
+2023-06-11T19:00:00+00:00,Sao Paulo,Palmeiras,0,2,Match Finished,2023
+2023-06-11T21:30:00+00:00,Flamengo,Gremio,3,0,Match Finished,2023
+2023-06-11T21:30:00+00:00,Goias,Fluminense,2,2,Match Finished,2023
+2023-06-21T22:00:00+00:00,Sao Paulo,Atletico Paranaense,2,1,Match Finished,2023
+2023-06-21T22:00:00+00:00,Cruzeiro,Fortaleza EC,0,1,Match Finished,2023
+2023-06-21T23:00:00+00:00,Santos,Corinthians,0,2,Match Finished,2023
+2023-06-22T00:30:00+00:00,Bahia,Palmeiras,1,0,Match Finished,2023
+2023-06-22T00:30:00+00:00,Fluminense,Atletico-MG,1,1,Match Finished,2023
+2023-06-22T22:00:00+00:00,Gremio,America Mineiro,3,1,Match Finished,2023
+2023-06-22T23:00:00+00:00,Vasco DA Gama,Goias,0,1,Match Finished,2023
+2023-06-22T23:00:00+00:00,Coritiba,Internacional,0,1,Match Finished,2023
+2023-06-22T23:00:00+00:00,Cuiaba,Botafogo,0,1,Match Finished,2023
+2023-06-23T00:30:00+00:00,RB Bragantino,Flamengo,4,0,Match Finished,2023
+2023-06-24T19:00:00+00:00,Atletico Paranaense,Corinthians,1,0,Match Finished,2023
+2023-06-24T21:30:00+00:00,Fluminense,Bahia,2,1,Match Finished,2023
+2023-06-24T21:30:00+00:00,Fortaleza EC,Atletico-MG,2,1,Match Finished,2023
+2023-06-25T00:00:00+00:00,Cruzeiro,Sao Paulo,1,0,Match Finished,2023
+2023-06-25T19:00:00+00:00,Palmeiras,Botafogo,0,1,Match Finished,2023
+2023-06-25T19:00:00+00:00,Gremio,Coritiba,5,1,Match Finished,2023
+2023-06-25T21:30:00+00:00,America Mineiro,Internacional,1,2,Match Finished,2023
+2023-06-25T21:30:00+00:00,Santos,Flamengo,2,3,Match Finished,2023
+2023-06-25T21:30:00+00:00,RB Bragantino,Goias,2,0,Match Finished,2023
+2023-06-27T00:00:00+00:00,Vasco DA Gama,Cuiaba,1,0,Match Finished,2023
+2023-07-01T19:00:00+00:00,Sao Paulo,Fluminense,1,0,Match Finished,2023
+2023-07-01T21:30:00+00:00,Bahia,Gremio,1,2,Match Finished,2023
+2023-07-01T21:30:00+00:00,Flamengo,Fortaleza EC,2,0,Match Finished,2023
+2023-07-02T00:00:00+00:00,Internacional,Cruzeiro,0,0,Match Finished,2023
+2023-07-02T14:00:00+00:00,Corinthians,RB Bragantino,0,1,Match Finished,2023
+2023-07-02T19:00:00+00:00,Botafogo,Vasco DA Gama,2,0,Match Finished,2023
+2023-07-02T19:00:00+00:00,Atletico Paranaense,Palmeiras,2,2,Match Finished,2023
+2023-07-02T19:00:00+00:00,Atletico-MG,America Mineiro,2,2,Match Finished,2023
+2023-07-02T21:30:00+00:00,Cuiaba,Santos,3,0,Match Finished,2023
+2023-07-03T23:00:00+00:00,Goias,Coritiba,1,2,Match Finished,2023
+2023-07-08T19:00:00+00:00,Vasco DA Gama,Cruzeiro,0,1,Match Finished,2023
+2023-07-08T19:00:00+00:00,Cuiaba,Bahia,1,1,Match Finished,2023
+2023-07-08T21:30:00+00:00,Coritiba,America Mineiro,3,1,Match Finished,2023
+2023-07-08T21:30:00+00:00,Atletico-MG,Corinthians,0,1,Match Finished,2023
+2023-07-09T00:00:00+00:00,Palmeiras,Flamengo,1,1,Match Finished,2023
+2023-07-09T14:00:00+00:00,Santos,Goias,4,3,Match Finished,2023
+2023-07-09T19:00:00+00:00,Fluminense,Internacional,2,0,Match Finished,2023
+2023-07-09T19:00:00+00:00,RB Bragantino,Sao Paulo,0,0,Match Finished,2023
+2023-07-09T21:30:00+00:00,Gremio,Botafogo,0,2,Match Finished,2023
+2023-07-09T21:30:00+00:00,Fortaleza EC,Atletico Paranaense,1,0,Match Finished,2023
+2023-07-16T00:00:00+00:00,Botafogo,RB Bragantino,2,0,Match Finished,2023
+2023-07-16T14:00:00+00:00,Cruzeiro,Coritiba,0,0,Match Finished,2023
+2023-07-16T19:00:00+00:00,Fluminense,Flamengo,0,0,Match Finished,2023
+2023-07-16T19:00:00+00:00,Sao Paulo,Santos,4,1,Match Finished,2023
+2023-07-16T19:00:00+00:00,Fortaleza EC,Cuiaba,0,1,Match Finished,2023
+2023-07-16T21:30:00+00:00,Internacional,Palmeiras,0,0,Match Finished,2023
+2023-07-16T21:30:00+00:00,Atletico Paranaense,Bahia,2,0,Match Finished,2023
+2023-07-17T23:00:00+00:00,Goias,Atletico-MG,0,0,Match Finished,2023
+2023-07-22T19:00:00+00:00,Palmeiras,Fortaleza EC,3,1,Match Finished,2023
+2023-07-22T19:00:00+00:00,Flamengo,America Mineiro,1,1,Match Finished,2023
+2023-07-22T21:30:00+00:00,Bahia,Corinthians,0,0,Match Finished,2023
+2023-07-22T21:30:00+00:00,Cuiaba,Sao Paulo,2,1,Match Finished,2023
+2023-07-23T00:00:00+00:00,Gremio,Atletico-MG,1,0,Match Finished,2023
+2023-07-23T19:00:00+00:00,Santos,Botafogo,2,2,Match Finished,2023
+2023-07-23T19:00:00+00:00,Cruzeiro,Goias,0,1,Match Finished,2023
+2023-07-23T19:00:00+00:00,RB Bragantino,Internacional,0,0,Match Finished,2023
+2023-07-23T21:30:00+00:00,Vasco DA Gama,Atletico Paranaense,0,2,Match Finished,2023
+2023-07-24T22:00:00+00:00,Coritiba,Fluminense,2,0,Match Finished,2023
+2023-07-29T19:00:00+00:00,Internacional,Cuiaba,1,2,Match Finished,2023
+2023-07-29T19:00:00+00:00,Fluminense,Santos,1,0,Match Finished,2023
+2023-07-29T19:00:00+00:00,Atletico Paranaense,Cruzeiro,3,3,Match Finished,2023
+2023-07-29T21:30:00+00:00,Corinthians,Vasco DA Gama,3,1,Match Finished,2023
+2023-07-29T21:30:00+00:00,Fortaleza EC,RB Bragantino,0,3,Match Finished,2023
+2023-07-30T00:00:00+00:00,Atletico-MG,Flamengo,1,2,Match Finished,2023
+2023-07-30T14:00:00+00:00,Sao Paulo,Bahia,0,0,Match Finished,2023
+2023-07-30T19:00:00+00:00,Botafogo,Coritiba,4,1,Match Finished,2023
+2023-07-30T19:00:00+00:00,America Mineiro,Palmeiras,1,4,Match Finished,2023
+2023-07-30T21:30:00+00:00,Goias,Gremio,1,1,Match Finished,2023
+2023-08-05T19:00:00+00:00,Santos,Atletico Paranaense,1,1,Match Finished,2023
+2023-08-05T21:30:00+00:00,Internacional,Corinthians,2,2,Match Finished,2023
+2023-08-05T21:30:00+00:00,Goias,Fortaleza EC,1,0,Match Finished,2023
+2023-08-06T00:00:00+00:00,Fluminense,Palmeiras,2,1,Match Finished,2023
+2023-08-06T19:00:00+00:00,Sao Paulo,Atletico-MG,0,2,Match Finished,2023
+2023-08-06T19:00:00+00:00,Vasco DA Gama,Gremio,1,0,Match Finished,2023
+2023-08-06T21:30:00+00:00,Bahia,America Mineiro,3,1,Match Finished,2023
+2023-08-06T21:30:00+00:00,Cruzeiro,Botafogo,0,0,Match Finished,2023
+2023-08-06T21:30:00+00:00,Coritiba,RB Bragantino,0,1,Match Finished,2023
+2023-08-06T23:00:00+00:00,Cuiaba,Flamengo,3,0,Match Finished,2023
+2023-08-13T00:00:00+00:00,Botafogo,Internacional,3,1,Match Finished,2023
+2023-08-13T14:00:00+00:00,Atletico-MG,Bahia,1,0,Match Finished,2023
+2023-08-13T19:00:00+00:00,America Mineiro,Goias,0,1,Match Finished,2023
+2023-08-13T19:00:00+00:00,Gremio,Fluminense,2,1,Match Finished,2023
+2023-08-13T19:00:00+00:00,Corinthians,Coritiba,3,1,Match Finished,2023
+2023-08-13T21:30:00+00:00,Flamengo,Sao Paulo,1,1,Match Finished,2023
+2023-08-13T21:30:00+00:00,Fortaleza EC,Santos,4,0,Match Finished,2023
+2023-08-14T22:00:00+00:00,Palmeiras,Cruzeiro,1,0,Match Finished,2023
+2023-08-15T00:00:00+00:00,RB Bragantino,Vasco DA Gama,1,1,Match Finished,2023
+2023-08-15T23:00:00+00:00,Atletico Paranaense,Cuiaba,2,0,Match Finished,2023
+2023-08-19T19:00:00+00:00,Internacional,Fortaleza EC,0,1,Match Finished,2023
+2023-08-19T19:00:00+00:00,Sao Paulo,Botafogo,0,0,Match Finished,2023
+2023-08-19T21:30:00+00:00,Fluminense,America Mineiro,3,1,Match Finished,2023
+2023-08-19T21:30:00+00:00,Cuiaba,Palmeiras,0,2,Match Finished,2023
+2023-08-20T00:00:00+00:00,Cruzeiro,Corinthians,1,1,Match Finished,2023
+2023-08-20T14:00:00+00:00,Vasco DA Gama,Atletico-MG,1,0,Match Finished,2023
+2023-08-20T19:00:00+00:00,Bahia,RB Bragantino,4,0,Match Finished,2023
+2023-08-20T19:00:00+00:00,Santos,Gremio,2,1,Match Finished,2023
+2023-08-20T19:00:00+00:00,Coritiba,Flamengo,2,3,Match Finished,2023
+2023-08-21T23:00:00+00:00,Goias,Atletico Paranaense,1,1,Match Finished,2023
+2023-08-26T21:30:00+00:00,Flamengo,Internacional,0,0,Match Finished,2023
+2023-08-27T00:00:00+00:00,Corinthians,Goias,1,1,Match Finished,2023
+2023-08-27T14:00:00+00:00,RB Bragantino,Cuiaba,2,0,Match Finished,2023
+2023-08-27T19:00:00+00:00,Botafogo,Bahia,3,0,Match Finished,2023
+2023-08-27T19:00:00+00:00,America Mineiro,Sao Paulo,2,1,Match Finished,2023
+2023-08-27T19:00:00+00:00,Atletico-MG,Santos,2,0,Match Finished,2023
+2023-08-27T21:30:00+00:00,Palmeiras,Vasco DA Gama,1,0,Match Finished,2023
+2023-08-27T21:30:00+00:00,Atletico Paranaense,Fluminense,2,2,Match Finished,2023
+2023-08-27T21:30:00+00:00,Fortaleza EC,Coritiba,3,1,Match Finished,2023
+2023-08-27T22:00:00+00:00,Gremio,Cruzeiro,3,0,Match Finished,2023
+2023-09-02T19:00:00+00:00,Atletico Paranaense,Atletico-MG,1,1,Match Finished,2023
+2023-09-02T19:00:00+00:00,Goias,Internacional,0,0,Match Finished,2023
+2023-09-03T00:00:00+00:00,Botafogo,Flamengo,1,2,Match Finished,2023
+2023-09-03T14:00:00+00:00,Gremio,Cuiaba,2,0,Match Finished,2023
+2023-09-03T19:00:00+00:00,Fluminense,Fortaleza EC,1,0,Match Finished,2023
+2023-09-03T19:00:00+00:00,Corinthians,Palmeiras,0,0,Match Finished,2023
+2023-09-03T21:30:00+00:00,Bahia,Vasco DA Gama,1,1,Match Finished,2023
+2023-09-03T21:30:00+00:00,America Mineiro,Santos,2,0,Match Finished,2023
+2023-09-03T21:30:00+00:00,Cruzeiro,RB Bragantino,0,0,Match Finished,2023
+2023-09-14T00:30:00+00:00,Internacional,Sao Paulo,2,1,Match Finished,2023
+2023-09-14T00:30:00+00:00,Flamengo,Atletico Paranaense,0,3,Match Finished,2023
+2023-09-14T22:00:00+00:00,Santos,Cruzeiro,0,3,Match Finished,2023
+2023-09-14T22:00:00+00:00,Fortaleza EC,Corinthians,2,1,Match Finished,2023
+2023-09-14T23:00:00+00:00,Coritiba,Bahia,2,4,Match Finished,2023
+2023-09-15T00:30:00+00:00,RB Bragantino,Gremio,2,0,Match Finished,2023
+2023-09-15T23:00:00+00:00,Cuiaba,America Mineiro,2,2,Match Finished,2023
+2023-09-16T00:30:00+00:00,Palmeiras,Goias,1,0,Match Finished,2023
+2023-09-16T19:00:00+00:00,Vasco DA Gama,Fluminense,4,2,Match Finished,2023
+2023-09-17T00:00:00+00:00,Atletico-MG,Botafogo,1,0,Match Finished,2023
+2023-09-18T23:00:00+00:00,Bahia,Santos,1,2,Match Finished,2023
+2023-09-19T00:00:00+00:00,Corinthians,Gremio,4,4,Match Finished,2023
+2023-09-20T00:30:00+00:00,America Mineiro,RB Bragantino,0,2,Match Finished,2023
+2023-09-20T22:00:00+00:00,Goias,Flamengo,0,0,Match Finished,2023
+2023-09-21T00:30:00+00:00,Fluminense,Cruzeiro,1,0,Match Finished,2023
+2023-09-21T00:30:00+00:00,Sao Paulo,Fortaleza EC,1,2,Match Finished,2023
+2023-09-21T22:00:00+00:00,Vasco DA Gama,Coritiba,5,1,Match Finished,2023
+2023-09-21T22:30:00+00:00,Atletico Paranaense,Internacional,2,1,Match Finished,2023
+2023-09-22T00:30:00+00:00,Gremio,Palmeiras,1,0,Match Finished,2023
+2023-09-22T23:00:00+00:00,Corinthians,Botafogo,1,0,Match Finished,2023
+2023-09-24T00:00:00+00:00,Atletico-MG,Cuiaba,1,0,Match Finished,2023
+2023-09-25T23:00:00+00:00,America Mineiro,Vasco DA Gama,0,1,Match Finished,2023
+2023-09-27T22:00:00+00:00,Sao Paulo,Coritiba,2,1,Match Finished,2023
+2023-09-30T19:00:00+00:00,Flamengo,Bahia,1,0,Match Finished,2023
+2023-09-30T19:00:00+00:00,Fortaleza EC,Gremio,1,1,Match Finished,2023
+2023-09-30T21:30:00+00:00,Sao Paulo,Corinthians,2,1,Match Finished,2023
+2023-09-30T21:30:00+00:00,Cuiaba,Fluminense,3,0,Match Finished,2023
+2023-10-01T00:00:00+00:00,Internacional,Atletico-MG,0,2,Match Finished,2023
+2023-10-01T19:00:00+00:00,Santos,Vasco DA Gama,4,1,Match Finished,2023
+2023-10-01T19:00:00+00:00,Cruzeiro,America Mineiro,1,1,Match Finished,2023
+2023-10-01T19:00:00+00:00,Coritiba,Atletico Paranaense,2,0,Match Finished,2023
+2023-10-01T21:30:00+00:00,RB Bragantino,Palmeiras,2,1,Match Finished,2023
+2023-10-02T23:00:00+00:00,Botafogo,Goias,1,1,Match Finished,2023
+2023-10-07T19:00:00+00:00,Goias,Bahia,4,6,Match Finished,2023
+2023-10-07T21:30:00+00:00,Vasco DA Gama,Sao Paulo,0,0,Match Finished,2023
+2023-10-08T00:00:00+00:00,Corinthians,Flamengo,1,1,Match Finished,2023
+2023-10-08T19:00:00+00:00,Internacional,Gremio,3,2,Match Finished,2023
+2023-10-08T19:00:00+00:00,Palmeiras,Santos,1,2,Match Finished,2023
+2023-10-08T19:00:00+00:00,Fluminense,Botafogo,0,2,Match Finished,2023
+2023-10-08T21:30:00+00:00,Atletico Paranaense,RB Bragantino,1,1,Match Finished,2023
+2023-10-08T21:30:00+00:00,Fortaleza EC,America Mineiro,3,2,Match Finished,2023
+2023-10-08T21:30:00+00:00,Atletico-MG,Coritiba,1,2,Match Finished,2023
+2023-10-15T00:00:00+00:00,Cuiaba,Cruzeiro,0,0,Match Finished,2023
+2023-10-18T22:00:00+00:00,Gremio,Atletico Paranaense,1,2,Match Finished,2023
+2023-10-18T23:00:00+00:00,America Mineiro,Botafogo,1,2,Match Finished,2023
+2023-10-18T23:00:00+00:00,Coritiba,Cuiaba,0,3,Match Finished,2023
+2023-10-19T00:30:00+00:00,Bahia,Internacional,1,0,Match Finished,2023
+2023-10-19T00:30:00+00:00,Vasco DA Gama,Fortaleza EC,1,0,Match Finished,2023
+2023-10-19T00:30:00+00:00,Goias,Sao Paulo,2,0,Match Finished,2023
+2023-10-19T22:00:00+00:00,Palmeiras,Atletico-MG,0,2,Match Finished,2023
+2023-10-19T22:00:00+00:00,Cruzeiro,Flamengo,0,2,Match Finished,2023
+2023-10-19T23:00:00+00:00,Santos,RB Bragantino,1,3,Match Finished,2023
+2023-10-20T00:30:00+00:00,Fluminense,Corinthians,3,3,Match Finished,2023
+2023-10-21T21:30:00+00:00,Bahia,Fortaleza EC,2,0,Match Finished,2023
+2023-10-21T21:30:00+00:00,Sao Paulo,Gremio,3,0,Match Finished,2023
+2023-10-21T21:30:00+00:00,Cuiaba,Goias,1,1,Match Finished,2023
+2023-10-22T00:00:00+00:00,Botafogo,Atletico Paranaense,1,1,Match Finished,2023
+2023-10-22T19:00:00+00:00,Internacional,Santos,7,1,Match Finished,2023
+2023-10-22T19:00:00+00:00,Flamengo,Vasco DA Gama,1,0,Match Finished,2023
+2023-10-22T19:00:00+00:00,Atletico-MG,Cruzeiro,0,1,Match Finished,2023
+2023-10-22T21:30:00+00:00,Corinthians,America Mineiro,1,1,Match Finished,2023
+2023-10-22T21:30:00+00:00,Coritiba,Palmeiras,0,2,Match Finished,2023
+2023-10-22T21:30:00+00:00,RB Bragantino,Fluminense,1,0,Match Finished,2023
+2023-10-25T23:00:00+00:00,Palmeiras,Sao Paulo,5,0,Match Finished,2023
+2023-10-25T23:00:00+00:00,Cruzeiro,Bahia,3,0,Match Finished,2023
+2023-10-26T00:30:00+00:00,Gremio,Flamengo,3,2,Match Finished,2023
+2023-10-26T00:30:00+00:00,Cuiaba,Corinthians,0,1,Match Finished,2023
+2023-10-26T22:00:00+00:00,Fluminense,Goias,5,3,Match Finished,2023
+2023-10-26T22:00:00+00:00,Atletico Paranaense,America Mineiro,3,2,Match Finished,2023
+2023-10-26T22:00:00+00:00,RB Bragantino,Atletico-MG,1,2,Match Finished,2023
+2023-10-27T00:30:00+00:00,Santos,Coritiba,2,1,Match Finished,2023
+2023-10-27T22:00:00+00:00,Vasco DA Gama,Internacional,1,2,Match Finished,2023
+2023-10-28T23:00:00+00:00,Palmeiras,Bahia,1,0,Match Finished,2023
+2023-10-28T23:00:00+00:00,America Mineiro,Gremio,3,4,Match Finished,2023
+2023-10-29T01:00:00+00:00,Atletico-MG,Fluminense,2,0,Match Finished,2023
+2023-10-29T19:00:00+00:00,Atletico Paranaense,Sao Paulo,1,1,Match Finished,2023
+2023-10-29T19:00:00+00:00,Goias,Vasco DA Gama,1,1,Match Finished,2023
+2023-10-29T21:30:00+00:00,Internacional,Coritiba,3,4,Match Finished,2023
+2023-10-29T21:30:00+00:00,Corinthians,Santos,1,1,Match Finished,2023
+2023-10-29T23:00:00+00:00,Botafogo,Cuiaba,0,1,Match Finished,2023
+2023-10-31T22:00:00+00:00,Bahia,Fluminense,1,0,Match Finished,2023
+2023-11-01T22:00:00+00:00,Internacional,America Mineiro,1,1,Match Finished,2023
+2023-11-01T22:00:00+00:00,Corinthians,Atletico Paranaense,1,0,Match Finished,2023
+2023-11-01T23:00:00+00:00,Flamengo,Santos,1,2,Match Finished,2023
+2023-11-01T23:00:00+00:00,Coritiba,Gremio,1,2,Match Finished,2023
+2023-11-02T00:30:00+00:00,Botafogo,Palmeiras,3,4,Match Finished,2023
+2023-11-02T00:30:00+00:00,Atletico-MG,Fortaleza EC,3,1,Match Finished,2023
+2023-11-02T20:00:00+00:00,Cuiaba,Vasco DA Gama,0,2,Match Finished,2023
+2023-11-02T21:00:00+00:00,Goias,RB Bragantino,0,2,Match Finished,2023
+2023-11-02T23:00:00+00:00,Sao Paulo,Cruzeiro,1,0,Match Finished,2023
+2023-11-04T22:30:00+00:00,America Mineiro,Atletico-MG,1,1,Match Finished,2023
+2023-11-04T22:30:00+00:00,Gremio,Bahia,1,0,Match Finished,2023
+2023-11-05T00:30:00+00:00,Palmeiras,Atletico Paranaense,1,0,Match Finished,2023
+2023-11-05T19:00:00+00:00,Cruzeiro,Internacional,1,2,Match Finished,2023
+2023-11-05T19:00:00+00:00,Fortaleza EC,Flamengo,0,2,Match Finished,2023
+2023-11-05T19:00:00+00:00,RB Bragantino,Corinthians,1,0,Match Finished,2023
+2023-11-05T21:30:00+00:00,Coritiba,Goias,0,1,Match Finished,2023
+2023-11-06T22:00:00+00:00,Vasco DA Gama,Botafogo,1,0,Match Finished,2023
+2023-11-07T00:00:00+00:00,Santos,Cuiaba,0,0,Match Finished,2023
+2023-11-08T22:00:00+00:00,Internacional,Fluminense,0,0,Match Finished,2023
+2023-11-08T22:00:00+00:00,America Mineiro,Coritiba,0,3,Match Finished,2023
+2023-11-08T23:00:00+00:00,Sao Paulo,RB Bragantino,1,0,Match Finished,2023
+2023-11-08T23:00:00+00:00,Atletico Paranaense,Fortaleza EC,1,1,Match Finished,2023
+2023-11-09T00:30:00+00:00,Flamengo,Palmeiras,3,0,Match Finished,2023
+2023-11-09T22:00:00+00:00,Corinthians,Atletico-MG,1,1,Match Finished,2023
+2023-11-09T22:00:00+00:00,Goias,Santos,0,1,Match Finished,2023
+2023-11-09T23:00:00+00:00,Bahia,Cuiaba,0,3,Match Finished,2023
+2023-11-09T23:00:00+00:00,Botafogo,Gremio,3,4,Match Finished,2023
+2023-11-11T19:00:00+00:00,Coritiba,Cruzeiro,1,0,Match Finished,2023
+2023-11-11T21:30:00+00:00,Flamengo,Fluminense,1,1,Match Finished,2023
+2023-11-12T00:00:00+00:00,Palmeiras,Internacional,3,0,Match Finished,2023
+2023-11-12T19:00:00+00:00,Gremio,Corinthians,0,1,Match Finished,2023
+2023-11-12T19:00:00+00:00,RB Bragantino,Botafogo,2,2,Match Finished,2023
+2023-11-12T21:30:00+00:00,Bahia,Atletico Paranaense,1,1,Match Finished,2023
+2023-11-12T21:30:00+00:00,Santos,Sao Paulo,0,0,Match Finished,2023
+2023-11-12T21:30:00+00:00,Vasco DA Gama,America Mineiro,2,1,Match Finished,2023
+2023-11-12T21:30:00+00:00,Atletico-MG,Goias,2,1,Match Finished,2023
+2023-11-12T21:30:00+00:00,Cuiaba,Fortaleza EC,2,1,Match Finished,2023
+2023-11-18T21:30:00+00:00,Fortaleza EC,Cruzeiro,0,1,Match Finished,2023
+2023-11-22T22:00:00+00:00,Cruzeiro,Vasco DA Gama,2,2,Match Finished,2023
+2023-11-23T00:30:00+00:00,Fluminense,Sao Paulo,1,0,Match Finished,2023
+2023-11-23T22:00:00+00:00,Fortaleza EC,Botafogo,2,2,Match Finished,2023
+2023-11-24T00:30:00+00:00,Flamengo,RB Bragantino,1,0,Match Finished,2023
+2023-11-25T00:00:00+00:00,Corinthians,Bahia,1,5,Match Finished,2023
+2023-11-25T22:30:00+00:00,Atletico Paranaense,Vasco DA Gama,0,0,Match Finished,2023
+2023-11-26T00:00:00+00:00,Fluminense,Coritiba,2,1,Match Finished,2023
+2023-11-26T19:00:00+00:00,Botafogo,Santos,1,1,Match Finished,2023
+2023-11-26T19:00:00+00:00,Atletico-MG,Gremio,3,0,Match Finished,2023
+2023-11-26T21:30:00+00:00,Internacional,RB Bragantino,1,0,Match Finished,2023
+2023-11-26T21:30:00+00:00,America Mineiro,Flamengo,0,3,Match Finished,2023
+2023-11-26T21:30:00+00:00,Sao Paulo,Cuiaba,0,0,Match Finished,2023
+2023-11-26T21:30:00+00:00,Fortaleza EC,Palmeiras,2,2,Match Finished,2023
+2023-11-28T00:00:00+00:00,Goias,Cruzeiro,0,1,Match Finished,2023
+2023-11-29T00:30:00+00:00,Vasco DA Gama,Corinthians,2,4,Match Finished,2023
+2023-11-29T22:00:00+00:00,Santos,Fluminense,0,3,Match Finished,2023
+2023-11-29T22:30:00+00:00,Flamengo,Atletico-MG,0,3,Match Finished,2023
+2023-11-29T23:00:00+00:00,Bahia,Sao Paulo,0,1,Match Finished,2023
+2023-11-29T23:00:00+00:00,Cuiaba,Internacional,0,2,Match Finished,2023
+2023-11-30T00:30:00+00:00,Palmeiras,America Mineiro,4,0,Match Finished,2023
+2023-11-30T00:30:00+00:00,Coritiba,Botafogo,1,1,Match Finished,2023
+2023-11-30T22:00:00+00:00,Gremio,Goias,2,1,Match Finished,2023
+2023-11-30T23:00:00+00:00,Cruzeiro,Atletico Paranaense,1,1,Match Finished,2023
+2023-11-30T23:30:00+00:00,RB Bragantino,Fortaleza EC,1,2,Match Finished,2023
+2023-12-02T21:00:00+00:00,Corinthians,Internacional,1,2,Match Finished,2023
+2023-12-03T00:00:00+00:00,Atletico-MG,Sao Paulo,2,1,Match Finished,2023
+2023-12-03T19:00:00+00:00,Palmeiras,Fluminense,1,0,Match Finished,2023
+2023-12-03T19:00:00+00:00,Flamengo,Cuiaba,2,1,Match Finished,2023
+2023-12-03T21:30:00+00:00,Botafogo,Cruzeiro,0,0,Match Finished,2023
+2023-12-03T21:30:00+00:00,America Mineiro,Bahia,3,2,Match Finished,2023
+2023-12-03T21:30:00+00:00,Gremio,Vasco DA Gama,1,0,Match Finished,2023
+2023-12-03T21:30:00+00:00,Atletico Paranaense,Santos,3,0,Match Finished,2023
+2023-12-03T21:30:00+00:00,Fortaleza EC,Goias,1,0,Match Finished,2023
+2023-12-03T21:30:00+00:00,RB Bragantino,Coritiba,1,0,Match Finished,2023
+2023-12-06T22:00:00+00:00,Goias,America Mineiro,1,0,Match Finished,2023
+2023-12-07T00:30:00+00:00,Bahia,Atletico-MG,4,1,Match Finished,2023
+2023-12-07T00:30:00+00:00,Internacional,Botafogo,3,1,Match Finished,2023
+2023-12-07T00:30:00+00:00,Fluminense,Gremio,2,3,Match Finished,2023
+2023-12-07T00:30:00+00:00,Sao Paulo,Flamengo,1,0,Match Finished,2023
+2023-12-07T00:30:00+00:00,Santos,Fortaleza EC,1,2,Match Finished,2023
+2023-12-07T00:30:00+00:00,Vasco DA Gama,RB Bragantino,2,1,Match Finished,2023
+2023-12-07T00:30:00+00:00,Cruzeiro,Palmeiras,1,1,Match Finished,2023
+2023-12-07T00:30:00+00:00,Coritiba,Corinthians,0,2,Match Finished,2023
+2023-12-07T00:30:00+00:00,Cuiaba,Atletico Paranaense,3,0,Match Finished,2023
