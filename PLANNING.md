@@ -8,9 +8,9 @@ Criar uma aplicação web que simule múltiplos cenários da tabela final do Cam
 ### Status das Fases
 ✅ Fase 1 - Setup Inicial e Estrutura
 ✅ Fase 2 - Processamento de Dados
-🔄 Fase 3 - Motor de Simulação (95% Concluída)
-⏳ Fase 4 - Interface do Usuário (Pendente)
-⏳ Fase 5 - Refinamento e Otimização (Pendente)
+✅ Fase 3 - Motor de Simulação
+✅ Fase 4 - Interface do Usuário (100% Concluída)
+⏳ Fase 5 - Refinamento e Otimização (Iniciando)
 
 ### Componentes Implementados
 ✅ Next.js 14 configurado
@@ -25,6 +25,30 @@ Criar uma aplicação web que simule múltiplos cenários da tabela final do Cam
    - Progress
    - Select
    - Slider
+   - Tabs
+   - Tooltip
+   - ThemeProvider/ThemeToggle
+
+### Visualizações Implementadas
+✅ Tabela de Resultados:
+   - Posição média
+   - Melhor/pior posição
+   - Posição mais provável
+   - Intervalo de pontos
+   - Cores por zona da tabela (otimizadas para temas claro/escuro)
+
+✅ Estatísticas:
+   - Total de times
+   - Média de pontos
+   - Total de simulações
+   - Times por zona da tabela
+   - Variabilidade média
+
+✅ Probabilidades:
+   - Gráfico de barras por posição
+   - Cores por zona da tabela
+   - Seleção de time
+   - Tooltip com valores exatos
 
 ### Motor de Simulação
 ✅ Funcionalidades implementadas:
@@ -88,16 +112,20 @@ interface TeamHistoricalData {
 interface SimulationConfig {
   numberOfSimulations: number;
   confidenceLevel: number;
+  recentFormWeight: number;
+  homeAwayWeight: number;
+  randomnessFactor: number;
 }
 
 interface SimulationResult {
   teamPositions: {
     team: string;
     avgPosition: number;
-    bestPosition: number;
-    worstPosition: number;
-    mostLikelyPosition: number;
-    pointsRange: {min: number; max: number; avg: number};
+    stdDeviation: number;
+    positionProbabilities: {
+      position: number;
+      probability: number;
+    }[];
   }[];
   simulationCount: number;
 }
@@ -197,11 +225,14 @@ interface SimulationResult {
   - Otimização de estruturas de dados
 
 ### 3. Interface do Usuário
-- [ ] Melhorar design da página inicial
-- [ ] Implementar formulário de configuração
-- [ ] Criar visualizações gráficas dos resultados
-- [ ] Adicionar mais métricas estatísticas
-- [ ] Implementar feedback visual do progresso
+- [x] Melhorar design da página inicial
+- [x] Implementar formulário de configuração
+- [x] Criar visualizações gráficas dos resultados
+- [x] Adicionar mais métricas estatísticas
+- [x] Implementar feedback visual do progresso
+- [x] Adicionar tooltips explicativos
+- [x] Implementar temas claro/escuro
+- [x] Melhorar responsividade
 
 ### 4. Refinamentos
 - [ ] Implementar uso de dados históricos reais
@@ -216,4 +247,7 @@ interface SimulationResult {
   - Ajuste dos fatores de força dos times
   - Limitação dos gols esperados
   - Melhoria na performance das simulações
-- Ajustes na variabilidade do modelo probabilístico 
+- Ajustes na variabilidade do modelo probabilístico
+- Implementação de tooltips explicativos
+- Correção do cálculo de probabilidades de posição
+- Melhoria na visualização do gráfico de probabilidades 

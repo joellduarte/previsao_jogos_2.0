@@ -15,22 +15,27 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [currentSimulation, setCurrentSimulation] = useState<SimulationConfig | null>(null);
+  const [progress, setProgress] = useState(0);
 
   const handleSimulation = async (config: SimulationConfig) => {
     setIsLoading(true);
     setError(null);
     setCurrentSimulation(config);
+    setProgress(0);
     
     try {
       console.log('Iniciando carregamento dos dados...');
       console.log('Configuração:', config);
       
       // Carrega os dados
+      setProgress(5);
       const historicalData = await loadHistoricalData();
       console.log('Dados históricos carregados:', historicalData);
+      setProgress(15);
       
       const { standings, fixtures } = await loadCurrentSeasonData();
       console.log('Dados atuais carregados:', { standings, fixtures });
+      setProgress(25);
 
       // Converte os dados para o formato correto
       const teams: Team[] = standings.map(standing => ({
@@ -68,19 +73,25 @@ export default function Home() {
       }));
 
       console.log('Dados convertidos:', { teams, matches });
+      setProgress(35);
 
       // Configura os parâmetros da simulação
       const simulationParams = {
         numberOfSimulations: config.numberOfSimulations,
-        randomnessFactor: 0.5,
-        recentFormWeight: 0.3,
-        homeAwayWeight: 0.2,
+        randomnessFactor: config.randomnessFactor,
+        recentFormWeight: config.recentFormWeight,
+        homeAwayWeight: config.homeAwayWeight,
         confidenceLevel: config.confidenceLevel,
         seasonData: {
           '2024': {
             teams,
             matches
           }
+        },
+        onProgress: (simulationProgress: number) => {
+          // Mapeia o progresso da simulação (0-100) para o intervalo de 35-95
+          const mappedProgress = 35 + (simulationProgress * 0.6);
+          setProgress(Math.round(mappedProgress));
         }
       };
 
@@ -89,6 +100,7 @@ export default function Home() {
       // Executa a simulação
       const simulationResults = await runSimulation(matches, simulationParams);
       console.log('Simulação concluída:', simulationResults);
+      setProgress(100);
       
       setResults(simulationResults);
     } catch (err) {
@@ -103,41 +115,47 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background flex flex-col">
       <header className="border-b">
-        <div className="container mx-auto px-4 py-6">
-          <h1 className="text-4xl font-bold text-center">Simulador do Brasileirão 2024</h1>
-          <p className="text-center text-muted-foreground mt-2">
+        <div className="container mx-auto px-4 py-4 sm:py-6">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center">Simulador do Brasileirão 2024</h1>
+          <p className="text-center text-muted-foreground mt-2 text-sm sm:text-base">
             Simule múltiplos cenários do campeonato baseado em dados históricos
           </p>
         </div>
       </header>
 
-      <main className="container mx-auto px-4 py-8 flex-1">
-        <div className="grid gap-8 md:grid-cols-[400px_1fr] h-full">
-          <div className="space-y-4">
-            <h2 className="text-2xl font-bold">Configuração</h2>
-            <SimulationForm onSubmit={handleSimulation} />
+      <main className="container mx-auto px-4 py-4 sm:py-6 md:py-8 flex-1">
+        <div className="grid gap-4 sm:gap-6 md:gap-8 lg:grid-cols-[350px_1fr] xl:grid-cols-[400px_1fr]">
+          <div className="space-y-3 sm:space-y-4">
+            <h2 className="text-xl sm:text-2xl font-bold">Configuração</h2>
+            <SimulationForm 
+              onSubmit={handleSimulation} 
+              isLoading={isLoading}
+              progress={progress}
+            />
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-start lg:items-center justify-center min-h-[400px] lg:min-h-0">
             {error ? (
-              <div className="text-center text-red-500 max-w-md">
-                <p>{error}</p>
+              <div className="text-center text-red-500 max-w-md p-4">
+                <p className="text-sm sm:text-base">{error}</p>
               </div>
             ) : isLoading ? (
-              <div className="text-center">
-                <div className="animate-spin rounded-full h-16 w-16 border-4 border-primary border-t-transparent mx-auto"></div>
-                <p className="mt-6 text-lg font-medium text-primary">
+              <div className="text-center p-4">
+                <div className="animate-spin rounded-full h-12 w-12 sm:h-16 sm:w-16 border-4 border-primary border-t-transparent mx-auto"></div>
+                <p className="mt-4 sm:mt-6 text-base sm:text-lg font-medium text-primary">
                   Executando {currentSimulation?.numberOfSimulations || 1000} simulações...
                 </p>
-                <p className="mt-2 text-sm text-muted-foreground">
+                <p className="mt-2 text-xs sm:text-sm text-muted-foreground">
                   Nível de confiança: {(currentSimulation?.confidenceLevel || 0.95) * 100}%
                 </p>
               </div>
             ) : results ? (
-              <SimulationResults results={results} />
+              <div className="w-full overflow-x-auto">
+                <SimulationResults results={results} />
+              </div>
             ) : (
-              <div className="text-center text-muted-foreground max-w-md">
-                <p>Configure os parâmetros e inicie a simulação para ver os resultados</p>
+              <div className="text-center text-muted-foreground max-w-md p-4">
+                <p className="text-sm sm:text-base">Configure os parâmetros e inicie a simulação para ver os resultados</p>
               </div>
             )}
           </div>
@@ -145,8 +163,8 @@ export default function Home() {
       </main>
 
       <footer className="border-t mt-auto">
-        <div className="container mx-auto px-4 py-6">
-          <p className="text-center text-sm text-muted-foreground">
+        <div className="container mx-auto px-4 py-4 sm:py-6">
+          <p className="text-center text-xs sm:text-sm text-muted-foreground">
             Desenvolvido com Next.js, TypeScript e Tailwind CSS
           </p>
         </div>

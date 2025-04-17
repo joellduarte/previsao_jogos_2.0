@@ -42,7 +42,7 @@ next-env.d.ts
 # Arquivos de backup
 *.zip
 *.bak
-
-# Arquivos temporários
 *.tmp
 *.temp
+backup_projeto.bat
+zip_project.py

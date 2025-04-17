@@ -60,9 +60,21 @@ export interface TeamPosition {
     max: number;
     avg: number;
   };
+  positionProbabilities: {
+    position: number;
+    probability: number;
+  }[];
 }
 
 export interface SimulationResult {
   teamPositions: TeamPosition[];
   simulationCount: number;
+}
+
+export interface TeamStats {
+  name: string;
+  points: number;
+  goalsFor: number;
+  goalsAgainst: number;
+  recentForm: number[];
 } 

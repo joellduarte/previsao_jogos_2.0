@@ -1,6 +1,6 @@
-# Simulador do Brasileirão
+# Simulador do Campeonato Brasileiro
 
-Simulador de múltiplos cenários da tabela final do Campeonato Brasileiro de Futebol, capaz de gerar previsões para qualquer temporada desde que existam dados históricos suficientes para alimentar o modelo. O projeto atualmente utiliza dados históricos de 2021-2023 para demonstração.
+Simulador de múltiplos cenários para a tabela final do Campeonato Brasileiro de Futebol, capaz de gerar previsões para qualquer temporada desde que haja dados históricos suficientes para alimentar o modelo. O projeto utiliza atualmente dados históricos de 2021-2023 para demonstração.
 
 ## Requisitos Mínimos
 
@@ -50,17 +50,50 @@ O projeto estará disponível em `http://localhost:3000`
 src/
 ├── app/                    # Páginas da aplicação
 ├── components/             # Componentes React
-├── lib/                    # Lógica de negócio
+│   ├── ui/                 # Componentes base (shadcn)
+│   ├── SimulationForm/     # Formulário de configuração
+│   └── SimulationResults/  # Componentes de resultados
+├── lib/                    # Lógica de negócios
 │   ├── simulation/         # Motor de simulação
 │   └── analysis/           # Análise estatística
 ├── data/                   # Dados históricos
 └── types/                  # Definições de tipos
 ```
 
+## Funcionalidades Implementadas
+
+### Visualizações
+- ✅ Tabela de Resultados:
+  - Posição média
+  - Melhor/pior posição
+  - Posição mais provável
+  - Faixa de pontos
+  - Cores por zona da tabela (otimizado para temas claro/escuro)
+
+- ✅ Estatísticas:
+  - Total de times
+  - Pontos médios
+  - Total de simulações
+  - Times por zona da tabela
+  - Variabilidade média
+
+- ✅ Probabilidades:
+  - Gráfico de barras por posição
+  - Cores por zona da tabela
+  - Seleção de time
+  - Tooltip com valores exatos
+
+### Motor de Simulação
+- ✅ Análise de confrontos diretos (H2H)
+- ✅ Cálculo de forma ponderada
+- ✅ Distribuição de Poisson para gols
+- ✅ Fatores de influência calibrados
+- ✅ Documentação completa do código
+
 ## Scripts Disponíveis
 
 - `npm run dev`: Inicia o servidor de desenvolvimento
-- `npm run build`: Gera a versão de produção
+- `npm run build`: Gera a build de produção
 - `npm run start`: Inicia o servidor de produção
 - `npm run lint`: Executa o linter
 - `npm run test`: Executa os testes
@@ -77,7 +110,10 @@ src/
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "tailwind-merge": "^2.0.0"
+    "tailwind-merge": "^2.0.0",
+    "@radix-ui/react-tooltip": "^1.0.7",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-theme": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
@@ -94,17 +130,19 @@ src/
 
 O simulador foi otimizado para:
 - Processar 1000 simulações em menos de 5 segundos
-- Usar cache para resultados intermediários
-- Paralelizar processamento quando possível
+- Utilizar cache para resultados intermediários
+- Paralelizar o processamento quando possível
+- Interface responsiva e fluida
+- Temas claro/escuro com transições suaves
 
 ## Contribuição
 
 1. Faça um fork do projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
-4. Push para a branch (`git push origin feature/nova-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+4. Faça push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
 ## Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.

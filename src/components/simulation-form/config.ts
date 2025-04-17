@@ -1,11 +1,17 @@
 export interface SimulationConfig {
   numberOfSimulations: number;
   confidenceLevel: number;
+  recentFormWeight: number;
+  homeAwayWeight: number;
+  randomnessFactor: number;
 }
 
 export const DEFAULT_CONFIG: SimulationConfig = {
   numberOfSimulations: 1000,
-  confidenceLevel: 95
+  confidenceLevel: 0.95,
+  recentFormWeight: 0.3,
+  homeAwayWeight: 0.2,
+  randomnessFactor: 0.5
 };
 
 export const SIMULATION_LIMITS = {

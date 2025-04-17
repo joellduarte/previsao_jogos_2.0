@@ -1,16 +1,16 @@
-# Brazilian Championship 2024 Simulator
+# Brazilian Championship Simulator
 
 ## Objective
-Create a web application to simulate multiple scenarios of the final standings for the 2024 Brazilian Championship, based on historical data from 2021-2023.
+Create a web application that simulates multiple scenarios of the final standings of the Brazilian Football Championship for any season, using historical data from previous seasons to feed the predictive model. The project currently uses data from 2021-2023 as historical basis for demonstration.
 
 ## Current Project Status
 
 ### Phase Status
 ✅ Phase 1 - Initial Setup and Structure
 ✅ Phase 2 - Data Processing
-🔄 Phase 3 - Simulation Engine (95% Complete)
-⏳ Phase 4 - User Interface (Pending)
-⏳ Phase 5 - Refinement and Optimization (Pending)
+✅ Phase 3 - Simulation Engine
+✅ Phase 4 - User Interface (100% Complete)
+⏳ Phase 5 - Refinement and Optimization (Starting)
 
 ### Implemented Components
 ✅ Next.js 14 configured
@@ -25,6 +25,30 @@ Create a web application to simulate multiple scenarios of the final standings f
    - Progress
    - Select
    - Slider
+   - Tabs
+   - Tooltip
+   - ThemeProvider/ThemeToggle
+
+### Implemented Views
+✅ Results Table:
+   - Average position
+   - Best/worst position
+   - Most likely position
+   - Points range
+   - Colors by table zone (optimized for light/dark themes)
+
+✅ Statistics:
+   - Total teams
+   - Average points
+   - Total simulations
+   - Teams by table zone
+   - Average variability
+
+✅ Probabilities:
+   - Position bar chart
+   - Colors by table zone
+   - Team selection
+   - Tooltip with exact values
 
 ### Simulation Engine
 ✅ Implemented features:
@@ -58,14 +82,16 @@ src/
 
 ### Data Files
 Location: `/data/raw/api_football/`
-- `historical/historical_standings_20250412.csv` — Historical standings
-- `historical/historical_fixtures_20250412.csv` — Historical matches
-- `current/standings_20250412.csv` — Current standings
-- `current/fixtures_20250412.csv` — Current season matches
+- `historical/historical_standings_[DATE].csv` — Historical standings
+- `historical/historical_fixtures_[DATE].csv` — Historical matches
+- `current/standings_[DATE].csv` — Current standings
+- `current/fixtures_[DATE].csv` — Current season matches
 - Auxiliary files:
   - `model_features.csv`
   - `all_team_stats.csv`
   - `all_matches.csv`
+
+Note: [DATE] represents the data update date in YYYYMMDD format
 
 ### Main Interfaces
 ```typescript
@@ -86,16 +112,20 @@ interface TeamHistoricalData {
 interface SimulationConfig {
   numberOfSimulations: number;
   confidenceLevel: number;
+  recentFormWeight: number;
+  homeAwayWeight: number;
+  randomnessFactor: number;
 }
 
 interface SimulationResult {
   teamPositions: {
     team: string;
     avgPosition: number;
-    bestPosition: number;
-    worstPosition: number;
-    mostLikelyPosition: number;
-    pointsRange: {min: number; max: number; avg: number};
+    stdDeviation: number;
+    positionProbabilities: {
+      position: number;
+      probability: number;
+    }[];
   }[];
   simulationCount: number;
 }
@@ -195,11 +225,14 @@ interface SimulationResult {
   - Data structure optimization
 
 ### 3. User Interface
-- [ ] Improve home page design
-- [ ] Implement configuration form
-- [ ] Create graphical visualizations
-- [ ] Add more statistical metrics
-- [ ] Implement visual progress feedback
+- [x] Improve home page design
+- [x] Implement configuration form
+- [x] Create graphical visualizations
+- [x] Add more statistical metrics
+- [x] Implement visual progress feedback
+- [x] Add explanatory tooltips
+- [x] Implement light/dark themes
+- [x] Improve responsiveness
 
 ### 4. Refinements
 - [ ] Implement real historical data usage
@@ -214,4 +247,7 @@ interface SimulationResult {
   - Team strength factors adjustment
   - Expected goals limitation
   - Simulation performance improvement
-- Probabilistic model variability adjustments 
+- Probabilistic model variability adjustments
+- Implementation of explanatory tooltips
+- Correction of position probability calculation
+- Improvement in probability chart visualization 
