@@ -22,8 +22,8 @@ Simulator of multiple scenarios for the final table of the Brazilian Football Ch
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/previsao_jogos_2.0_new.git
-cd previsao_jogos_2.0_new
+git clone https://github.com/joellduarte/previsao_jogos_2.0.git
+cd previsao_jogos_2.0
 ```
 
 2. Install dependencies:

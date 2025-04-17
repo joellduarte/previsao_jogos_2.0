@@ -22,8 +22,8 @@ Simulador de múltiplos cenários para a tabela final do Campeonato Brasileiro d
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/previsao_jogos_2.0_new.git
-cd previsao_jogos_2.0_new
+git clone https://github.com/joellduarte/previsao_jogos_2.0.git
+cd previsao_jogos_2.0
 ```
 
 2. Instale as dependências:

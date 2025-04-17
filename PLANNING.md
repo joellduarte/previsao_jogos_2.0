@@ -1,4 +1,4 @@
-# Simulador do Brasileirão
+# Simulador do Campeonato Brasileiro
 
 ## Objetivo
 Criar uma aplicação web que simule múltiplos cenários da tabela final do Campeonato Brasileiro de Futebol para qualquer temporada, utilizando dados históricos de temporadas anteriores para alimentar o modelo preditivo. O projeto atualmente utiliza dados de 2021-2023 como base histórica para demonstração.
@@ -241,7 +241,7 @@ interface SimulationResult {
 - [ ] Implementar cache de resultados
 - [ ] Preparar para deploy
 
-## Registro de Progresso (jun/2024)
+## Registro de Progresso (jan/2024)
 - Refatoração do motor de simulação:
   - Otimização do cálculo de Poisson
   - Ajuste dos fatores de força dos times
