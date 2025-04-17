@@ -46,3 +46,15 @@ next-env.d.ts
 *.temp
 backup_projeto.bat
 zip_project.py
+
+# Arquivos de segurança
+.ssh/
+*.key
+*.pem
+*.cert
+*.crt
+*.password
+*.token
+.credentials
+auth.*
+credentials.*
